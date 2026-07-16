@@ -1,0 +1,320 @@
+/* 全体設定 */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 
+        "Hiragino Kaku Gothic ProN",
+        "Yu Gothic",
+        sans-serif;
+
+    background-color: #fff8fc;
+    color: #555;
+    line-height: 1.8;
+}
+
+
+/* ヘッダー */
+header {
+    background: linear-gradient(
+        135deg,
+        #ffd6e7,
+        #ffeef7
+    );
+
+    text-align: center;
+    padding: 40px 20px;
+
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+
+header h1 {
+    margin: 0;
+    color: #ff7fab;
+    font-size: 40px;
+}
+
+
+header p {
+    color: #888;
+    font-size: 18px;
+}
+
+
+
+/* ナビゲーション */
+nav {
+    margin-top: 25px;
+}
+
+
+nav a {
+
+    display: inline-block;
+
+    text-decoration: none;
+
+    color: #ff6f9f;
+
+    background-color: white;
+
+    padding: 8px 18px;
+
+    margin: 5px;
+
+    border-radius: 30px;
+
+    box-shadow: 0 5px 10px rgba(0,0,0,0.08);
+
+    transition: 0.3s;
+}
+
+
+nav a:hover {
+
+    transform: translateY(-5px);
+
+    background-color: #ffb6d2;
+
+    color: white;
+
+}
+
+
+
+/* メイン */
+.hero {
+
+    text-align: center;
+
+    padding: 60px 20px;
+
+}
+
+
+
+.profile {
+
+    max-width: 600px;
+
+    margin: auto;
+
+}
+
+
+
+.icon {
+
+    font-size: 0;
+
+}
+
+
+
+.hero h2 {
+
+    color: #ff77aa;
+
+    font-size: 32px;
+
+}
+
+
+
+button {
+
+    margin-top: 20px;
+
+    padding: 15px 30px;
+
+    border: none;
+
+    border-radius: 40px;
+
+    background-color: #ff9fc4;
+
+    color:white;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    box-shadow:0 5px 15px rgba(255,130,180,0.3);
+
+}
+
+
+button:hover {
+
+    transform:scale(1.05);
+
+}
+
+
+
+
+/* 各セクション */
+
+section {
+
+    padding:50px 20px;
+
+    max-width:1000px;
+
+    margin:auto;
+
+}
+
+
+
+section h2 {
+
+    text-align:center;
+
+    color:#ff77aa;
+
+    font-size:30px;
+
+    margin-bottom:30px;
+
+}
+
+
+
+
+/* カード */
+
+.card {
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:30px;
+
+    box-shadow:
+
+    0 10px 25px rgba(255,150,190,0.15);
+
+    margin:20px auto;
+
+}
+
+
+
+
+
+/* スキル */
+
+.skill-area {
+
+    display:flex;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+}
+
+
+.skill-area .card {
+
+    width:200px;
+
+    text-align:center;
+
+}
+
+
+
+.skill-area h3 {
+
+    color:#ff8db5;
+
+}
+
+
+
+
+
+/* フッター */
+
+footer {
+
+    text-align:center;
+
+    background:#ffe1ee;
+
+    padding:20px;
+
+    margin-top:40px;
+
+    color:#777;
+
+}
+
+
+
+
+
+/* スマホ対応 */
+
+@media(max-width:600px){
+
+
+header h1 {
+
+    font-size:30px;
+
+}
+
+
+.hero h2 {
+
+    font-size:25px;
+
+}
+
+
+.skill-area .card {
+
+    width:90%;
+
+}
+
+
+nav a {
+
+    display:block;
+
+    width:200px;
+
+    margin:10px auto;
+
+}
+
+/* プロフィール画像 */
+
+.icon img {
+
+    width:30px;
+
+    height:30px;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+    border:8px solid white;
+
+    box-shadow:
+    0 3px 10px rgba(255,150,190,0.3);
+
+}
+}
