@@ -99,9 +99,17 @@ nav a:hover {
 
 .profile {
 
-    max-width: 600px;
+    max-width: 800px;
 
     margin: auto;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 30px;
+
+    text-align: left;
 
 }
 
